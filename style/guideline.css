@@ -1,0 +1,16 @@
+div#wrap {
+  border: 1px solid #000;
+}
+
+/* form바로 아래에 있는 모든 div 박스 */
+form > div {
+  border: 1px solid #00f;
+}
+
+div.input_container {
+  border: 1px solid #f00;
+}
+
+div#logo {
+  border: 1px solid #000;
+}

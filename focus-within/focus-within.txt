@@ -1,0 +1,17 @@
+﻿[ 슈도 클래스  :focus-within ]
+내용 => 
+하위 태그에 포커스가 설정되면
+하위 태그를 포함하고 있는 상위태그에
+CSS가 설정되는 CSS 선택자
+
+
+1. HTML소스
+<p>
+  <input type="text">
+</p>
+
+2. CSS소스
+p:focus-within {
+    border : 1px solid Dodgerblue;
+}
+
