@@ -49,7 +49,7 @@
                         </div> <!-- div.input_container -->
                     </div> <!-- div#nameArea -->
                     <div id="birthArea">
-                        <label for="userBirthYear">생년일</label>
+                        <label for="userBirthYear">생년월일</label>
                         <div class="flexbox">
                             <div class="input_container">
                                 <input id="userBirthYear" name="userBirth" type="text" placeholder="년(4자)">
@@ -99,7 +99,13 @@
                     <div id="phoneArea">
                         <label for="userPhone">휴대전화</label>
                         <div class="input_container">
-                            select option 들어갈 자리
+                            <select id="nationalCode" name="natioalCode">
+                                <option value="82">대한민국 +82</option>
+                                <option value="233">가나 +233</option>
+                                <option value="241">가봉 +241</option>
+                                <option value="592">가이아나 +592</option>
+                                <option value="220">감비아 +220</option>
+                            </select>
                         </div> <!-- div.input_container -->
                         <div class="flexbox">
                             <div class="input_container">
@@ -124,16 +130,17 @@
                 <ul id="mainMenu" class="flexbox">
                     <li class="mainLi"><a href="#">이용약관</a></li>
                     <li class="mainLi border"></li>
-                    <li class="mainLi"><a href="#"><b>개인정보처리방침</b></a></li>
+                    <li class="mainLi"><a href="#"><b class="bold">개인정보처리방침</b></a></li>
                     <li class="mainLi border"></li>
                     <li class="mainLi"><a href="#">책임의 한계와 법적고지</a></li>
                     <li class="mainLi border"></li>
-                    <li class="mainLi"><a href="#">회원정보</a></li>
-                    <li class="mainLi border"></li>
-                    <li class="mainLi"><a href="#">고객센터</a></li>
+                    <li class="mainLi"><a href="#">회원정보 고객센터</a></li>
                 </ul>
             </nav>
-            <p id="copyright">Copyright NAVER Corp. All Rights Reserved.</p>
+            <p id="copyright">
+                <a href="https://www.naver.com"><!-- small size of logo is here --></a>
+                Copyright <span>NAVER Corp.</span> All Rights Reserved.
+            </p>
         </footer>
     </div> <!-- div#wrap -->
 </body>
